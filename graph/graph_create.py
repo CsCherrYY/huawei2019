@@ -40,4 +40,4 @@ def data_gen():
         car_speed,car_start = list_car_tmp[3],list_car_tmp[4]
         _list_car[car_start-1].append(car(car_id,car_src,car_dst,car_speed,car_start))
     #数据读取完毕，存在三个对象数组之中，car按发车时间表示成二维数组
-    return _list_car,_list_road,_list_cross,G_cross
+    return _list_car,_list_road,_list_cross,G_cross,file_car.shape[0]
