@@ -5,7 +5,6 @@ import os
 import random
 least_road_rate=0.8             #选择最短路径的概率
 start_rate=0.6
-start_rate_level2=0.8
 class cross:
     id,up,right,down,left=0,-1,-1,-1,-1
     def __init__(self,id,up,right,down,left):
